@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom Healing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Cormorant+Garamond:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesv8.css">
+</head>
+<body>
+    <div id="background-animation"></div>
+    <div id="handwritten-text-animation"></div>
+
+    <header>
+        <nav>
+            <a href="#" class="logo">Bloom Healing</a>
+            <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#events">Events</a></li>
+                
+                <li><a href="#handwriting-analysis">Handwriting Analysis</a></li>
+                <li><a href="#graphotherapy">Graphotherapy</a></li>
+                <li><a href="#life-coaching">Life Coaching</a></li>
+                <li><a href="#team-building">Team Building</a></li>
+                <li><a href="#contact" class="cta-button">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="section hero">
+            <div class="container">
+                <h1>Unlock Your True Potential</h1>
+                <div class="animated-text"></div>
+                <a href="#contact" class="cta-button">Start Your Journey</a>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <h2>About Bloom Healing</h2>
+                <div class="grid">
+                    <div class="card">
+                        <img src="archana-profile.jpg" alt="Archana - Graphologist & Life Coach" width="300" height="300">
+                        <p>Archana is a skilled graphologist and life coach who combines handwriting analysis with Indian spirituality to provide unique insights into your personality and life path.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Our Approach</h3>
+                        <p>By analyzing your handwriting and understanding your unique personality traits, I help you unlock your potential and overcome obstacles in your personal and professional life.</p>
+                        <ul>
+                            <li>Personalized analysis</li>
+                            <li>Holistic life coaching</li>
+                            <li>Blend of science and spirituality</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section services">
+            <div class="container">
+                <h2>Services</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>Handwriting Analysis</h3>
+                        <p>Uncover hidden aspects of your personality through the science of graphology.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Graphotherapy</h3>
+                        <p>Transform your life by making simple changes to your handwriting.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Life Coaching</h3>
+                        <p>Get personalized guidance to achieve your goals and live a fulfilling life.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Team Building Workshops</h3>
+                        <p>Improve team dynamics and communication through handwriting analysis activities.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section portfolio">
+            <div class="container">
+                <h2>Portfolio</h2>
+                <!-- Add portfolio/gallery content here -->
+                <div class="card">
+                    <h3>Team Building Workshops</h3>
+                    <p>Improve team dynamics and communication through handwriting analysis activities.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="section blog">
+            <div class="container">
+                <h2>Latest Blog Posts</h2>
+                <!-- Add blog preview content here -->
+                <div class="card">
+                    <h3>Team Building Workshops</h3>
+                    <p>Improve team dynamics and communication through handwriting analysis activities.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="section testimonials">
+            <div class="container">
+                <h2>Client Testimonials</h2>
+                <div class="testimonial-slider">
+                    <div class="testimonial">
+                        <p>"To my surprise, she picked up on the deepest traits of my personality which took quite some time for me to consciously accept and work on."</p>
+                        <cite>- Priya Mehta, AVP Liability Facultative at Swiss Re</cite>
+                    </div>
+                    <div class="testimonial">
+                        <p>"Balancing a warm, compassionate style, she crafts a secure atmosphere for self-discovery, injecting just the right amount of directness when it matters. It was a truly enlightening experience."</p>
+                        <cite>- Kaushik Picha, Marketer | Brand Manager | UX Researcher | Poet</cite>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="section faq">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <!-- Add FAQ content here -->
+                <div class="card">
+                    <h3>Team Building Workshops</h3>
+                    <p>Improve team dynamics and communication through handwriting analysis activities.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="events" class="section events">
+            <div class="container">
+                <h2>Upcoming Events</h2>
+                <!-- Add events/calendar content here -->
+                <div class="card">
+                    <h3>Team Building Workshops</h3>
+                    <p>Improve team dynamics and communication through handwriting analysis activities.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2>Start Your Journey</h2>
+                <form id="contact-form">
+                    <select name="service" required>
+                        <option value="" disabled selected>Select a Service</option>
+                        <option value="handwriting-analysis">Handwriting Analysis</option>
+                        <option value="graphotherapy">Graphotherapy</option>
+                        <option value="life-coaching">Life Coaching</option>
+                        <option value="team-building">Team Building Workshop</option>
+                    </select>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Bloom Healing</h3>
+                    <p>Graphologist & Life Coach</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: contact@archana-graphologist.com</p>
+                    <p>Phone: +1 (123) 456-7890</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <!-- Add social media icons/links here -->
+                </div>
+            </div>
+            <div class="footer-bottom">
+                © 2024 Archana - All rights reserved | <a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-of-service.html">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+    <div id="background-animation"></div>
+    <div id="handwritten-text-animation"></div>
+    <div id="animation-controls"></div>
+
+    <script src="scriptv9.js"></script>
+    <script src="load-animation.js"></script>
+
+</body>
+</html>
